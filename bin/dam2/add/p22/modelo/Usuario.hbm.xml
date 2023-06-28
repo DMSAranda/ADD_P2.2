@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 13-ene-2013 10:31:54 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="dam2.add.p22.modelo.Usuario">
+        <id name="id" type="int">
+            <generator class="identity" />
+        </id>
+        <property name="nombre" type="string" />
+        <property name="password" type="string"/>
+        <property name="provincia" type="string"/>
+        <property name="municipio" type="string"/>
+        <property name="bloqueado" type="boolean"/>
+    </class>
+</hibernate-mapping>
